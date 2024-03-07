@@ -1,10 +1,11 @@
 #include <SFML/Graphics.hpp>
+#include<iostream>
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Magenta);
+    sf::RectangleShape player(sf::Vector2f(100.0f, 100.0f));
+    player.setFillColor(sf::Color::Red);
 
     while (window.isOpen())
     {
@@ -15,9 +16,31 @@ int main()
                 window.close();
         }
 
-        window.clear();
-        window.draw(shape);
-        window.display();
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
+    {
+        player.move(-0.1f, 0.0f);
+    }
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
+    {
+        player.move(0.1f, 0.0f);
+    }
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
+    {
+        player.move(0.0f, -0.1f);
+    }
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
+    {
+        player.move(0.0f, 0.1f);
+    }
+
+    window.clear();
+    window.draw(player);
+    window.display();
+
     }
 
     return 0;

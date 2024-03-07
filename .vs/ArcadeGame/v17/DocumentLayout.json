@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\branc\\source\\repos\\ArcadeGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE860788-B0FC-45A9-9B3E-A9F6431F6BA7}|ArcadeGame.vcxproj|C:\\Users\\branc\\source\\repos\\ArcadeGame\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{DE860788-B0FC-45A9-9B3E-A9F6431F6BA7}|ArcadeGame.vcxproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DE860788-B0FC-45A9-9B3E-A9F6431F6BA7}|ArcadeGame.vcxproj|C:\\Users\\branc\\source\\repos\\ArcadeGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE860788-B0FC-45A9-9B3E-A9F6431F6BA7}|ArcadeGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\branc\\source\\repos\\ArcadeGame\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\branc\\source\\repos\\ArcadeGame\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-06T17:25:15.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\branc\\source\\repos\\ArcadeGame\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\branc\\source\\repos\\ArcadeGame\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T00:04:28.493Z",
               "EditorCaption": ""
